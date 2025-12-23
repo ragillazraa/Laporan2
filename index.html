@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Praktikum 2 - CV Muhammad Ragil Azra Lubis</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #ffffff;
+            font-family: 'Arial', sans-serif;
+            color: #000000;
+        }
+        .cv-wrapper {
+            max-width: 1000px;
+            margin: 40px auto;
+            background: #ffffff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .sidebar {
+            background-color: #ffffff;
+            padding: 40px 25px;
+        }
+        .sidebar-title {
+            background-color: #767676;
+            padding: 8px 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            display: block;
+        }
+        .info-label {
+            font-weight: bold;
+            font-size: 0.85rem;
+            margin-bottom: 2px;
+        }
+        .info-text {
+            margin-bottom: 15px;
+            font-size: 0.9rem;
+        }
+        /* Main Content Styles */
+        .main-content {
+            padding: 40px 35px;
+        }
+        .header-section {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #000000;
+            padding-bottom: 25px;
+            margin-bottom: 25px;
+        }
+        .header-section img {
+            width: 130px;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 4px;
+            margin-right: 25px;
+        }
+        .header-section h1 {
+            font-weight: 800;
+            color: #070808;
+            margin-bottom: 5px;
+            font-size: 2.2rem;
+        }
+        .header-section h4 {
+            color: #0f1112;
+            font-weight: 400;
+        }
+        .content-title {
+            background-color: #7f7f7f;
+            padding: 8px 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            display: block;
+        }
+        .job-item { margin-bottom: 25px; }
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+        .company-name {
+            font-style: italic;
+            color: #000000;
+            margin-bottom: 8px;
+        }
+        ul { padding-left: 18px; font-size: 0.95rem; }
+        ul li { margin-bottom: 5px; }
+
+        /* Responsivitas Mobile */
+        @media (max-width: 768px) {
+            .cv-wrapper { margin: 0; }
+            .header-section { flex-direction: column; text-align: center; }
+            .header-section img { margin: 0 0 20px 0; }
+            .job-header { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container cv-wrapper">
+    <div class="row g-0">
+        <div class="col-md-4 sidebar">
+            <span class="sidebar-title">Kontak</span>
+            <div class="info-label">Whatsapp</div>
+            <div class="info-text">+62 111 2222 3333</div>
+            
+            <div class="info-label">Linkedin</div>
+            <div class="info-text">Muhammad Ragil Azra Lubis</div>
+            
+            <div class="info-label">Email</div>
+            <div class="info-text">ManusiaBiasa@gmail.com</div>
+            
+            <div class="info-label">Domisili</div>
+            <div class="info-text">JL Surga Utara, Kota Sini - 5023</div>
+
+            <span class="sidebar-title">Keahlian</span>
+            <div class="info-text">Marketing</div>
+            <div class="info-text">Analis Data</div>
+            <div class="info-text">Energik</div>
+            <div class="info-text">Kreatif</div>
+            <div class="info-text">Pemecahan Masalah</div>
+            <div class="info-text">Komunikasi</div>
+
+            <span class="sidebar-title">Software</span>
+            <div class="info-text">Microsoft Word</div>
+            <div class="info-text">Microsoft Excel</div>
+            <div class="info-text">Powerpoint</div>
+            <div class="info-text">Canva</div>
+            <div class="info-text">Capcut</div>
+
+            <span class="sidebar-title">Pendidikan</span>
+            <div class="info-text">
+                <strong>S1 Teknik Informatika</strong><br>
+                Institut Teknologi PLN<br>
+                2024 - 2028 <br>
+                IPK Akhir 3.99
+            </div>
+        </div>
+
+        <div class="col-md-8 main-content">
+            <div class="header-section">
+                <img src="../Laporan 2/asset/img/Foto-Profile.jpg" alt="Foto Profil">
+                <div>
+                    <h1>Muhammad Ragil Azra Lubis</h1>
+                    <h4>S1 Teknik Informatika</h4>
+                </div>
+            </div>
+
+            <span class="content-title">Profil</span>
+            <p class="text-secondary" style="text-align: justify;">
+                Hallo, saya Ragil lulusan S1 Teknik Informatika dari Universitas Institut Teknologi PLN. 
+                Saya memiliki pengalaman sebagai KOL Spesialist, dan terakhir saya memiliki pengalaman sebagai pelayan restaurant. 
+                Saya merupakan kandidat yang tergolong semangat dan bertanggung jawab dalam bekerja, 
+                selain itu saya juga merupakan kandidat yang aktif, energik, mudah beradaptasi, dan mampu bekerja dalam sistem target.
+            </p>
+
+            <span class="content-title">Pengalaman Kerja</span>
+            
+            <div class="job-item">
+                <div class="job-header">
+                    <span>Waiters</span>
+                    <span>2020 - 2023 </span>
+                </div>
+                <div class="company-name">Resto Ikan Bakar Sedap Selera Rakyat</div>
+                <ul>
+                    <li>Menyambut Penonton Yang Datang</li>
+                    <li>Menyajikan buku menu dan memeberikan informasi yang rinci terkait ingredients dan rekomendasi menu</li>
+                    <li>Menyiapkan meja dan peralatan makan</li>
+                    <li>Melakukan up-sell produk tambahan bila diperlukan</li>
+                    <li>Menerima pesanan makanan dengan tepat dan akurat</li>
+                    <li>Mengomunikasikan detail pesanan kepada kitchen crew</li>
+                </ul>
+            </div>
+
+            <div class="job-item">
+                <div class="job-header">
+                    <span>KOL</span>
+                    <span>2019 - 2020 </span>
+                </div>
+                <div class="company-name">Media Iklan Indonesia</div>
+                <ul>
+                    <li>Mengelola komunikasi dan bangun hubungan yang baik dengan media, KOL, dan agensi pihak ketiga untuk kolaborasi bersama dalam kampanye</li>
+                    <li>Meneliti dan identifikasi KOL di berbagai platform digital untuk membangun brand experience yang kuat</li>
+                    <li>Menjangkau dan membangun jaringan KOL untuk berbagai kategori produk di media sosial</li>
+                    <li>Menerapkan kampanye engagement dengan berkoordinasi bersama KOL terkait persyaratan, timeline, dan hasil kerja mereka</li>
+                </ul>
+            </div>
+
+            <span class="content-title">Pelatihan Kerja</span>
+            <div class="job-header">
+                <span>Peserta Public Speaking</span>
+                <span>2022</span>
+            </div>
+            <div class="company-name">PT Media Pelatihan Karirmu Indonesia</div>
+            <p class="small text-muted">Mengenal teknik perkenalan & cara berbicara agar terlihat lancar</p>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
